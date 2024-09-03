@@ -1,27 +1,27 @@
 {
   "name": "page-capturer",
   "version": "1.0.0",
-  "description": "Noce Page capturer",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "up": "ncu -u && npm install && npm update && npm audit fix"
+  "description": "Noce Page capturer.",
+  "homepage": "https://github.com/sefinek24/node-page-capturer#readme",
+  "bugs": {
+    "url": "https://github.com/sefinek24/node-page-capturer/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sefinek24/node-page-capturer.git"
   },
-  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sefinek24/node-page-capturer/issues"
-  },
-  "homepage": "https://github.com/sefinek24/node-page-capturer#readme",
-  "devDependencies": {
-    "@eslint/js": "^9.9.1",
-    "globals": "^15.9.0"
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "dependencies": {
     "puppeteer": "^23.2.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "globals": "^15.9.0"
   }
 }
